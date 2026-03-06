@@ -34,4 +34,6 @@ form.addEventListener("submit", function(vals) {
     profile.appendChild(p);
 
     main.append(profile);
+
+    form.reset();
 });
