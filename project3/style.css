@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color:#121212;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main{
+    padding-top:50px;
+    padding-left:100px;
+}
+
+/* Inputs */
+input{
+    display:block;
+    border-radius:4px;
+    background-color:#1e1e1e;
+    color:white;
+    margin-bottom:10px;
+    padding:8px;
+    border:1px solid #333;
+}
+
+input::placeholder{
+    color:#aaa;
+}
+
+input[type="submit"]{
+    background-color:#4CAF50;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#3e8e41;
+}
+
+/* Profile Card */
+.profile{
+    max-width:300px;
+    border:1px solid #333;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    background-color:#1e1e1e;
+}
+
+.profpic{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:#333;
+    overflow:hidden;
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.profile h2,
+.profile h3,
+.profile h4{
+    margin-top:6px;
+}
+
+.profile p{
+    font-size:15px;
+    margin-top:6px;
+    color:#ccc;
+}
